@@ -1,6 +1,15 @@
 body {
-    background: rgb(102, 178, 255);
+    /* background: rgb(102, 178, 255); */
   }
+  #myVideo {
+    z-index: -1;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+  
   img{
     width: 400px;
     height: 275px;
@@ -12,11 +21,11 @@ body {
   
   h1, h5 {
     text-align: center;
-    color: rgb(255, 255, 153);
+    color: rgb(165, 153, 255);
   }
   
   .win {
-    color: white;
+    color: rgb(155, 70, 70);
     background-color: green;
   }
   
@@ -29,21 +38,21 @@ body {
     letter-spacing: 10px;
     text-align: center;
     font-size: 24pt;
-    color: rgb(255, 255, 153);
+    color: rgb(153, 255, 197);
     font-weight: bold;
   }
   
   #guesses {
     text-align: center;
     font-size: 16pt;
-    color: rgb(255, 255, 153);
+    color: #000;
     font-weight: bold;
   }
   
   .guess {
     padding: 10px;
     display: inline-block;
-    border: 2px solid rgb(255, 255, 153);
+    border: 2px solid #007;
     border-radius: 10px;
     margin: 5px;
     cursor: pointer;
