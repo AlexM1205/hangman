@@ -1,5 +1,8 @@
-body {
-    /* background: rgb(102, 178, 255); */
+
+  body{
+    background-image: url("img/pexels-studio-voyager-5212582.jpg");
+    background-size: cover;
+    /* background-position: center; */
   }
   #myVideo {
     z-index: -1;
