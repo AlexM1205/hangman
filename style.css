@@ -1,16 +1,14 @@
 
-  body{
-    background-image: url(/ProjectWeek10/img/imgbg.jpg);
-    background-size: cover;
-    /* background-position: center; */
-  }
-  #myVideo {
-    z-index: -1;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%; 
-    min-height: 100%;
+  body {
+    background: hsla(43, 91%, 69%, 1);
+
+    background: linear-gradient(90deg, #f68 0%, hsla(212, 74%, 50%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, rgb(104, 166, 248) 0%, hsla(212, 74%, 50%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, rgb(104, 159, 248) 0%, hsla(212, 74%, 50%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F8CF6A", endColorstr="#2178DD", GradientType=1 );
   }
   
   img{
